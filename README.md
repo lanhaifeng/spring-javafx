@@ -1,5 +1,10 @@
 ## 将基于springboot的javafx项目打包为exe
 
+> 基于spring-boot 3.2.1
+> jdk17
+> 依赖fx使用17，如org.openjfx:javafx-controls:17.0.2
+> 项目依赖的javafx，本地安装的是`F:\tools\javafx-sdk-21.0.1\lib`，idea中dependencies添加jar包库
+
 1. 先打包成可执行的jar
 
 使用springboot自身的插件打包
